@@ -1,4 +1,4 @@
-package com.example.lab3
+package com.example.lab3.ui.theme
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,8 +18,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.lab3.ui.theme.RecipeDetailScreen
-import com.example.lab3.ui.theme.RecipeListScreen
+import com.example.lab3.ui.RecipeListScreen
 import com.example.lab3.viewmodel.RecipeScreen
 import com.example.lab3.viewmodel.RecipeViewModel
 
