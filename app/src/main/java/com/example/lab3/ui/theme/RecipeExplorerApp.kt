@@ -18,9 +18,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.lab3.ui.RecipeListScreen
-import com.example.lab3.viewmodel.RecipeScreen
 import com.example.lab3.viewmodel.RecipeViewModel
+import com.example.lab3.viewmodel.RecipeScreen
 
 // Determines the layout to show after receiving the window size class
 @Composable
@@ -28,7 +27,7 @@ fun RecipeExplorerApp(windowSizeClass: WindowSizeClass) {
     val viewModel: RecipeViewModel = viewModel()
 
     // Compact refers to phones, medium and expanded for tablets and large screens
-    val isTablet = windowSizeClass.widthSizeClass != WindowWidthSizeClass.COMPACT
+    val isTablet = windowSizeClass.widthSizeClass != WindowWidthSizeClass.Compact
 
     Surface(
         modifier = Modifier.fillMaxSize(),

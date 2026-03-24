@@ -1,6 +1,4 @@
-package com.example.lab3.ui.theme
-
-import com.example.lab3.model.Recipe
+package com.example.lab3.model
 
 // Holds current UI state, selected recipe is null until selected/clicked
 data class RecipeUiState(

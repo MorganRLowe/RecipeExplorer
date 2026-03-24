@@ -1,4 +1,4 @@
-package com.example.lab3
+package com.example.lab3.ui.theme
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

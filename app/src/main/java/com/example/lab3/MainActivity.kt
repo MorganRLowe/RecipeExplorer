@@ -2,6 +2,7 @@ package com.example.lab3
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import com.example.lab3.ui.theme.RecipeListScreen
 import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
